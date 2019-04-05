@@ -1,4 +1,5 @@
 ## Experiment Code for bert generate
+Bert 做 文本生成 的一些實驗
 
 Colab Address
 ``` 
@@ -6,11 +7,11 @@ https://colab.research.google.com/drive/19wgXJPdb_282M0_puMgQ8qid0jvmJghG
 ```
 
 #### Bert generate once
-``
+```
 ['[CLS]', 'i', 'go', 'to', 'school', 'by', 'bus', '[SEP]', '[MASK]'] [-1, -1, -1, -1, -1, -1, -1, -1, 2769] 
-``
+```
 #### Bert generate one by one
-``
+```
 tensor([[  101,   151,  8373,  8228,  9467,  8120, 10411,   102,   103,   103,
 
            103,   103,   103,   103,   103,   103,   103,   103,   103,   103,
@@ -58,6 +59,6 @@ tensor([[  101,   151,  8373,  8228,  9467,  8120, 10411,   102,   103,   103,
            -1,   -1,   -1,   -1,   -1,   -1,   -1,   -1,   -1,   -1,   -1,   -1,
 
            -1,   -1,   -1,   -1,   -1,   -1,   -1,   -1]], device='cuda:0')
-``
+```
 #### Bert generate lstm
 Same as Bert generate once
